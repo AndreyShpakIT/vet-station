@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VetStation.Views.Service"
         mc:Ignorable="d"
-        Title="ServiceCreatingWindow" Height="450" Width="800">
-    
+        Title="ServiceCreatingWindow" Height="350" Width="800">
+
     <Grid d:DataContext="{Binding vm}">
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
@@ -85,8 +85,8 @@
                 />
 
             <ComboBox
-                SelectedItem="{Binding Kind}"
-                ItemsSource="{Binding Kinds}"
+                SelectedItem="{Binding Service}"
+                ItemsSource="{Binding Services}"
                 Grid.Column="1"
                 Grid.Row="2"
                 Margin="10 0"
@@ -95,7 +95,7 @@
                     <DataTemplate>
                         <Grid>
                             <TextBlock
-                                Text="{Binding Название}"/>
+                                Text="{Binding Название_услуги}"/>
                         </Grid>
                     </DataTemplate>
                 </ComboBox.ItemTemplate>
@@ -112,33 +112,20 @@
                     <DataTemplate>
                         <Grid>
                             <TextBlock
-                                Text="{Binding Название}"/>
+                                Text="{Binding Кличка}"/>
                         </Grid>
                     </DataTemplate>
                 </ComboBox.ItemTemplate>
             </ComboBox>
 
-
-            <TextBlock
-                Margin="10 0"
-                Text="Использованные препараты:"
-                Grid.Row="5"
-                FontSize="17"
-                />
-            <DataGrid
-                Margin="10"
-                Grid.Row="6"
-                Grid.ColumnSpan="2"
-                />
-
-
             <Button 
-                Command="{Binding AddCommand}"
+                Command="{Binding SaveCommand}"
                 Grid.ColumnSpan="2"
                 Grid.Row="10"
                 Margin="3"
-                Content="Добавить"/>
-
+                Content="Добавить"
+                />
+            
         </Grid>
     </Grid>
 </Window>

@@ -49,8 +49,13 @@ namespace VetStation.Viewmodels.Medicine
                     MessageBox.Show(e.Message);
                 }
             });
+            RefCommand = new RelayCommand((param) => 
+            {
+                Medicine = new ObservableCollection<ПрепаратыПредставление>(db.ПрепаратыПредставление);
+            });
         }
 
         public RelayCommand MedicineAdding { get; set; }
+        public RelayCommand RefCommand { get; set; }
     }
 }

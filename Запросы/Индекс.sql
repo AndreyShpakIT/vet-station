@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX ПользователиИндекс ON Клиенты([Код клиента]);

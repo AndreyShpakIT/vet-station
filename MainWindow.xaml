@@ -28,7 +28,7 @@
             </Grid.ColumnDefinitions>
             <Button 
                 Grid.Column="0"
-                Content="База данных"
+                Content="Питомцы"
                 Margin="2"
                 Command="{Binding TabClickCommand}"
                 CommandParameter="0"

@@ -108,10 +108,18 @@ namespace VetStation.Viewmodels.Vaccine
             {
                 Users = GetUsers();
             });
+            VaccineListCommand = new RelayCommand(param => 
+            {
+                VaccineListWindow window = new VaccineListWindow();
+                VaccineListViewModel vm = new VaccineListViewModel();
+                window.DataContext = vm;
+                window.Show();
+            });
         }
 
         public RelayCommand VaccineAdding { get; set; }
         public RelayCommand RefreshCommand { get; set; }
+        public RelayCommand VaccineListCommand { get; set; }
 
         public ObservableCollection<Клиенты> GetUsers()
         {

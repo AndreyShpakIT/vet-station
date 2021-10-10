@@ -31,5 +31,9 @@ namespace VetStation.Database
         [Column("Срок годности", Order = 4)]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Срок_годности { get; set; }
+
+        [Key]
+        [Column(Order = 5)]
+        public decimal Стоимость { get; set; }
     }
 }

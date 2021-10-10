@@ -23,7 +23,8 @@ namespace VetStation.Database
         public DateTime Дата_оказания { get; set; }
 
         [Column("Время оказания")]
-        public TimeSpan? Время_оказания { get; set; }
+        [StringLength(10)]
+        public string Время_оказания { get; set; }
 
         public virtual Питомцы Питомцы { get; set; }
 

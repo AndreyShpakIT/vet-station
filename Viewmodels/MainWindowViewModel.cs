@@ -3,6 +3,7 @@ using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Windows;
 using System.Windows.Controls;
+using VetStation.Views;
 using VetStation.Views.Database;
 using VetStation.Views.Medicine;
 using VetStation.Views.Service;
@@ -32,6 +33,7 @@ namespace VetStation.Viewmodels
                 new ServiceView(),
                 new VaccinationView(),
                 new MedicineView(),
+                new ReportsView()
             };
             CurrentView = Views[0];
 

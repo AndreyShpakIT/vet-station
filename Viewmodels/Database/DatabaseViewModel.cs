@@ -82,9 +82,17 @@ namespace VetStation.Viewmodels.Database
                 }
 
             });
+            ListCommand = new RelayCommand(param =>
+            {
+                ListWindow window = new ListWindow();
+                ListViewModel vm = new ListViewModel();
+                window.DataContext = vm;
+                window.Show();
+            });
         }
 
         public RelayCommand SaveCommand { get; set; }
         public RelayCommand PetAdding { get; set; }
+        public RelayCommand ListCommand { get; set; }
     }
 }

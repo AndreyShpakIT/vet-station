@@ -22,7 +22,10 @@ namespace VetStation.Database
         public virtual DbSet<ОстатокПрепаратов> ОстатокПрепаратов { get; set; }
         public virtual DbSet<ПрепаратыПредставление> ПрепаратыПредставление { get; set; }
         public virtual DbSet<ПрививкиПредставление> ПрививкиПредставление { get; set; }
+        public virtual DbSet<ОказанныеУслуги_ОстатокПрепаратов> ОказанныеУслуги_ОстатокПрепаратов { get; set; }
         public virtual DbSet<ОказанныеУслугиПредставление> ОказанныеУслугиПредставление { get; set; }
+        public virtual DbSet<ИспользуемыеПрепаратыПредставление> ИспользуемыеПрепаратыПредставление { get; set; }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

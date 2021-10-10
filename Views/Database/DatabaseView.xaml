@@ -23,7 +23,7 @@
 
         <TextBlock 
             FontSize="30"
-            Text="База данных"
+            Text="Клиенты и питомцы"
             HorizontalAlignment="Center"
             FontWeight="Bold"
             />
@@ -50,18 +50,32 @@
 
             <Grid Grid.Column="1">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="40"/>
                     <RowDefinition/>
                     <RowDefinition Height="50"/>
                 </Grid.RowDefinitions>
-                <TextBlock 
-                    FontSize="20"
-                    Text="Питомцы"
+
+                <StackPanel
+                    Orientation="Horizontal"
                     HorizontalAlignment="Center"
-                    />
+                    >
+                    <TextBlock 
+                        VerticalAlignment="Center"
+                        FontSize="20"
+                        Text="Питомцы"
+                        HorizontalAlignment="Center"
+                        />
+                    <Button
+                        Content="Виды животных"
+                        Command="{Binding ListCommand}"
+                        Style="{StaticResource MaterialDesignOutlinedButton}"
+                        Margin="10 0 0 0"
+                        />
+
+                </StackPanel>
                 <DataGrid 
                     MinWidth="300"
-                    Margin="2"
+                    Margin="2 10"
                     Grid.Row="1"
                     ItemsSource="{Binding Pets}"
                     IsReadOnly="True"

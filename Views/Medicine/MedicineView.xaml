@@ -19,12 +19,25 @@
                 <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
 
-            <TextBlock 
+           
+            <StackPanel
+                Orientation="Horizontal"
+                HorizontalAlignment="Center"
+                >
+                <TextBlock 
                 FontSize="30"
                 Text="Учет препаратов"
                 HorizontalAlignment="Center"
                 FontWeight="Bold"
                 />
+                <Button
+                    Content="Обновить"
+                    Command="{Binding RefCommand}"
+                    Style="{StaticResource MaterialDesignOutlinedButton}"
+                    Margin="20 0 0 0"
+                    />
+
+            </StackPanel>
 
             <Button
                 Command="{Binding MedicineAdding}"

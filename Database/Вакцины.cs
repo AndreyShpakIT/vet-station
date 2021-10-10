@@ -16,7 +16,6 @@ namespace VetStation.Database
 
         [Key]
         [Column("Код вида")]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Код_вида { get; set; }
 
         [Column("Название вакцины")]

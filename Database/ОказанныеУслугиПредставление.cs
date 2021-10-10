@@ -1,4 +1,4 @@
-﻿namespace VetStation.Database
+namespace VetStation.Database
 {
     using System;
     using System.Collections.Generic;
@@ -9,22 +9,26 @@
     public partial class ОказанныеУслугиПредставление
     {
         [Key]
-        [Column("ФИО", Order = 0)]
-        [StringLength(50)]
+        [Column("Код записи", Order = 0)]
+        public int Код_записи { get; set; }
+
+        [Key]
+        [Column(Order = 1)]
+        [StringLength(40)]
         public string ФИО { get; set; }
 
         [Key]
-        [Column("Название вакцины", Order = 1)]
+        [Column(Order = 2)]
         [StringLength(20)]
-        public string Название_вакцины { get; set; }
-
-
-        [Key]
-        [Column("Название услуги", Order = 2)]
-        public int Название_услуги { get; set; }
+        public string Кличка { get; set; }
 
         [Key]
-        [Column("Дата оказания", Order = 3, TypeName = "date")]
+        [Column("Название услуги", Order = 3)]
+        [StringLength(20)]
+        public string Название_услуги { get; set; }
+
+        [Key]
+        [Column("Дата оказания", Order = 4, TypeName = "date")]
         public DateTime Дата_оказания { get; set; }
     }
 }

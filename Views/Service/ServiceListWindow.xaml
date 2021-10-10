@@ -38,7 +38,7 @@
                 MinWidth="300"
                 Margin="10"
                 Grid.Row="1"
-                ItemsSource="{Binding Services}"
+                ItemsSource="{Binding List}"
                 />
 
         </Grid>
