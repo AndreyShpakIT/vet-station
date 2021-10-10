@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VetStation.App" Collapsed="true">
+    <Position X="34.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="43.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VetStation.NotifyObjectBase" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NotifyObjectBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VetStation.RelayCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VetStation.ReportManager" Collapsed="true">
+    <Position X="43.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAIAAAAAAAAAAAAAAgAAAAAQAAAAAAA=</HashCode>
+      <FileName>ReportManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Database.ApplicationDb" Collapsed="true">
+    <Position X="36.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAIAQAACFAAAAQAAAgEJEAAQQACAAAGAAAAAA=</HashCode>
+      <FileName>Database\ApplicationDb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Database.sysdiagrams" Collapsed="true">
+    <Position X="43.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAAAAAAAAAAAAAAAQAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\sysdiagrams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Database.Вакцины" Collapsed="true">
+    <Position X="38" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAgAAAAIAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\Вакцины.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Database.Виды_животных" Collapsed="true">
+    <Position X="39.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAABAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\Виды_животных.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Database.ИспользуемыеПрепаратыПредставление" Collapsed="true">
+    <Position X="41.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEEAAAAAAAEAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\ИспользуемыеПрепаратыПредставление.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Database.Клиенты" Collapsed="true">
+    <Position X="43.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAEAAAAAAAAAACQAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Database\Клиенты.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Database.Оказанные_услуги" Collapsed="true">
+    <Position X="45" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAQAAAAQAIACQAIAAAAAAAAAAA=</HashCode>
+      <FileName>Database\Оказанные_услуги.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Database.ОказанныеУслуги_ОстатокПрепаратов" Collapsed="true">
+    <Position X="34.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAEAAAAAAAAgACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\ОказанныеУслуги_ОстатокПрепаратов.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Database.ОказанныеУслугиПредставление" Collapsed="true">
+    <Position X="36.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAEAAQAAAAAAAAAAIACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\ОказанныеУслугиПредставление.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Database.ОстатокПрепаратов" Collapsed="true">
+    <Position X="38" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAQAAAEAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\ОстатокПрепаратов.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Database.Питомцы" Collapsed="true">
+    <Position X="39.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQBAACAIAAAEAEAAAAAAAAAApAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\Питомцы.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Database.ПитомцыПредставление" Collapsed="true">
+    <Position X="41.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAACAAAAAEAAAAAAAAAABAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\ПитомцыПредставление.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Database.Препараты" Collapsed="true">
+    <Position X="43.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAAAEAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\Препараты.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Database.ПрепаратыПредставление" Collapsed="true">
+    <Position X="45" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEAAAQAAAEAAAAAAAgAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\ПрепаратыПредставление.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Database.Прививки" Collapsed="true">
+    <Position X="34.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAQAAAAAACACAAAAAAACAAAAAE=</HashCode>
+      <FileName>Database\Прививки.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Database.ПрививкиПредставление" Collapsed="true">
+    <Position X="36.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Database\ПрививкиПредставление.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Database.Услуги" Collapsed="true">
+    <Position X="38" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAQAAAAAAAAQIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Database\Услуги.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Properties.Resources" Collapsed="true">
+    <Position X="34.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Properties.Settings" Collapsed="true">
+    <Position X="41.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Viewmodels.Database.DatabaseViewModel">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAQQAAAEEAAAAAAAAgAAAAAAABAAAAAUAAA=</HashCode>
+      <FileName>Viewmodels\Database\DatabaseViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Viewmodels.Database.ListViewModel">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAI=</HashCode>
+      <FileName>Viewmodels\Database\ListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Viewmodels.Database.PetCreatingViewModel">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAhQQAAKSEAAAAwAAAAEAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Viewmodels\Database\PetCreatingViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Viewmodels.MainWindowViewModel">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAACAAACAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Viewmodels\MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Viewmodels.ReportsViewModel">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAUCACEAQgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Viewmodels\ReportsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Viewmodels.Medicine.MedicineCreatingViewModel">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="VetStation.NotifyObjectBase" FixedToPoint="true">
+      <Path>
+        <Point X="17" Y="1.062" />
+        <Point X="17" Y="1.375" />
+        <Point X="7.168" Y="1.375" />
+        <Point X="7.168" Y="4.377" />
+        <Point X="7.938" Y="4.377" />
+        <Point X="7.938" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAhQAAAKQAAAAACgAAAAgAABgAAAAUAAAAA=</HashCode>
+      <FileName>Viewmodels\Medicine\MedicineCreatingViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Viewmodels.Medicine.MedicineViewModel">
+    <Position X="16.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAQAAAAAAAAAAAAAEAAAAAAAAAAAAgACAA=</HashCode>
+      <FileName>Viewmodels\Medicine\MedicineViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Viewmodels.Medicine.NewMedicineCreatingViewModel">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAACAAAQABQAEAAUAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Viewmodels\Medicine\NewMedicineCreatingViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Viewmodels.Service.MedicalSelectViewModel">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAABACAAAAAgABAAAAAAgAACAI=</HashCode>
+      <FileName>Viewmodels\Service\MedicalSelectViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Viewmodels.Service.ServiceCreatingViewModel">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAABAAAAQAAQCAAEAQgAAAAgAAAAQAABAAAAAcAEAQA=</HashCode>
+      <FileName>Viewmodels\Service\ServiceCreatingViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Viewmodels.Service.ServiceListViewModel">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAIAEAAA=</HashCode>
+      <FileName>Viewmodels\Service\ServiceListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Viewmodels.Service.ServiceViewModel">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQABBAAIAAAQCmCUEAgAEQAIACEAAAABAAAAAYgAAQQ=</HashCode>
+      <FileName>Viewmodels\Service\ServiceViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Viewmodels.Vaccine.VaccinationViewModel">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAQQQAAEgEAAAAAAAAAAgGAAAIAgAACAAAA=</HashCode>
+      <FileName>Viewmodels\Vaccine\VaccinationViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Viewmodels.Vaccine.VaccineCreatingViewModel">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQABAAAhQSAAKQAgAAAAgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Viewmodels\Vaccine\VaccineCreatingViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Viewmodels.Vaccine.VaccineListViewModel">
+    <Position X="16.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAI=</HashCode>
+      <FileName>Viewmodels\Vaccine\VaccineListViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VetStation.Views.Database.DatabaseView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Database\DatabaseView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VetStation.Views.Database.ListWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="41.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Database\ListWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VetStation.Views.Database.PetCreatingWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Database\PetCreatingWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VetStation.Views.HelpView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\HelpView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VetStation.Views.ReportsView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\ReportsView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VetStation.Views.Medicine.MedicineCreatingView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Medicine\MedicineCreatingView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VetStation.Views.Medicine.MedicineView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Medicine\MedicineView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VetStation.Views.Medicine.NewMedicineCreatingWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Medicine\NewMedicineCreatingWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VetStation.Views.Service.MedicalSelectWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Service\MedicalSelectWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VetStation.Views.Service.ServiceCreatingWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Service\ServiceCreatingWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VetStation.Views.Service.ServiceListWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Service\ServiceListWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VetStation.Views.Service.ServiceView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Service\ServiceView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VetStation.Views.Vaccine.VaccinationView" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="45" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Vaccine\VaccinationView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VetStation.Views.Vaccine.VaccineCreatingWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Vaccine\VaccineCreatingWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="VetStation.Views.Vaccine.VaccineListWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Vaccine\VaccineListWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Delegate Name="VetStation.Generation" Collapsed="true">
+    <Position X="34.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>ReportManager.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
