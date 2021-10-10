@@ -60,3 +60,5 @@ C:\Users\rPypty\source\repos\VetStation\bin\Debug\ru\EntityFramework.resources.d
 C:\Users\rPypty\source\repos\VetStation\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
 C:\Users\rPypty\source\repos\VetStation\obj\Debug\Views\ReportsView.baml
 C:\Users\rPypty\source\repos\VetStation\obj\Debug\VetStation.csprojAssemblyReference.cache
+C:\Users\rPypty\source\repos\VetStation\obj\Debug\Views\HelpView.g.cs
+C:\Users\rPypty\source\repos\VetStation\obj\Debug\Views\HelpView.baml

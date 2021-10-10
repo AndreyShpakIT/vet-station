@@ -33,7 +33,8 @@ namespace VetStation.Viewmodels
                 new ServiceView(),
                 new VaccinationView(),
                 new MedicineView(),
-                new ReportsView()
+                new ReportsView(),
+                new HelpView()
             };
             CurrentView = Views[0];
 

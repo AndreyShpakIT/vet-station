@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\rPypty\source\repos\VetStation\App.xaml
-151135606279
+16181486328
 
-54-1811794315
+55-1082089321
 26-1595420331
-MainWindow.xaml;Views\Database\DatabaseView.xaml;Views\Database\ListWindow.xaml;Views\Database\PetCreatingWindow.xaml;Views\Medicine\MedicineCreatingView.xaml;Views\Medicine\MedicineView.xaml;Views\Medicine\NewMedicineCreatingWindow.xaml;Views\ReportsView.xaml;Views\Service\MedicalSelectWindow.xaml;Views\Service\ServiceCreatingWindow.xaml;Views\Service\ServiceListWindow.xaml;Views\Service\ServiceView.xaml;Views\Vaccine\VaccinationView.xaml;Views\Vaccine\VaccineCreatingWindow.xaml;Views\Vaccine\VaccineListWindow.xaml;
+MainWindow.xaml;Views\Database\DatabaseView.xaml;Views\Database\ListWindow.xaml;Views\Database\PetCreatingWindow.xaml;Views\HelpView.xaml;Views\Medicine\MedicineCreatingView.xaml;Views\Medicine\MedicineView.xaml;Views\Medicine\NewMedicineCreatingWindow.xaml;Views\ReportsView.xaml;Views\Service\MedicalSelectWindow.xaml;Views\Service\ServiceCreatingWindow.xaml;Views\Service\ServiceListWindow.xaml;Views\Service\ServiceView.xaml;Views\Vaccine\VaccinationView.xaml;Views\Vaccine\VaccineCreatingWindow.xaml;Views\Vaccine\VaccineListWindow.xaml;
 
 False
 

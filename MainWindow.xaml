@@ -66,8 +66,9 @@
                 Grid.Column="10"
                 Content="?"
                 Margin="2"
+                CommandParameter="5"
                 Padding="0"
-                Command="{Binding OpenHelpCommand}"
+                Command="{Binding TabClickCommand}"
                 />
         </Grid>
 
